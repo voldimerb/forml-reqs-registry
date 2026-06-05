@@ -1,0 +1,7 @@
+{
+  "$schema_ref": "../spec/forml-atom.schema.json",
+  "generated_at": null,
+  "generator": "atomize-from-latest / build_registry.py",
+  "count": 0,
+  "atoms": []
+}

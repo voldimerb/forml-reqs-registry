@@ -1,0 +1,21 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Python
+__pycache__/
+*.pyc
+
+# --- data protection -------------------------------------------------------
+# Your populated registry & renders are environment-specific and may contain
+# confidential elicitation data — they are NOT committed by default.
+# The empty skeleton is kept via .gitkeep; the synthetic demo lives in examples/.
+/registry/atoms/*.md
+!/registry/atoms/.gitkeep
+/renders/*.md
+!/renders/.gitkeep
+
+# Drop your own raw/cleaned transcripts here (git-ignored) instead of committing them:
+/transcripts/

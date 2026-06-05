@@ -1,0 +1,12 @@
+{
+  "$schema_ref": "../spec/forml-atom.schema.json",
+  "generated_at": "2024-01-16",
+  "generator": "example (hand-authored to match build_registry.py output)",
+  "count": 4,
+  "atoms": [
+    { "id": "RA-0001", "file": "RA-0001-exclude-out-of-stock-from-carousel.md", "status": "draft", "kind": "business_rule", "intent": "Exclude out-of-stock products from the recommendation carousel without shrinking the catalog page", "who": "Recommendation service (owner: Product Owner)", "levels": [4], "jira": ["SHOP-101"], "confidence": 0.7, "source": "2024-01-15_sample-elicitation_cleaned.md [00:03:12]" },
+    { "id": "RA-0002", "file": "RA-0002-exclude-products-without-active-contract.md", "status": "draft", "kind": "business_rule", "intent": "Exclude products without an active supplier contract from recommendations", "who": "Recommendation service (owner: Domain Expert)", "levels": [4], "jira": [], "confidence": 0.7, "source": "2024-01-15_sample-elicitation_cleaned.md [00:05:25]" },
+    { "id": "RA-0003", "file": "RA-0003-own-brand-contract-exception.md", "status": "draft", "kind": "business_rule", "intent": "Do not exclude own-brand products for a missing supplier contract (exception to RA-0002)", "who": "Recommendation service (owner: Domain Expert)", "levels": [4], "jira": [], "confidence": 0.7, "source": "2024-01-15_sample-elicitation_cleaned.md [00:06:10]" },
+    { "id": "RA-0004", "file": "RA-0004-carousel-latency-budget.md", "status": "draft", "kind": "nonfunctional", "intent": "Render the recommendation carousel within a 200ms latency budget", "who": "Recommendation service (owner: Product Owner)", "levels": [4], "jira": [], "confidence": 0.8, "source": "2024-01-15_sample-elicitation_cleaned.md [00:08:30]" }
+  ]
+}

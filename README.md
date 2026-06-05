@@ -68,7 +68,7 @@ Requires **Claude Code**, **Python 3** + **PyYAML** (`pip3 install pyyaml`), and
 harness) Node-checked JS via Claude Code's Workflow tool.
 
 ```bash
-git clone https://github.com/<your-username>/forml-reqs-registry.git
+git clone https://github.com/voldimerb/forml-reqs-registry.git
 cd forml-reqs-registry
 
 # install the two skills for Claude Code (user scope)

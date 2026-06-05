@@ -6,7 +6,7 @@
 
 ## 2. Install the skills
 ```bash
-git clone https://github.com/<your-username>/forml-reqs-registry.git
+git clone https://github.com/voldimerb/forml-reqs-registry.git
 cd forml-reqs-registry
 mkdir -p ~/.claude/skills
 cp -R skills/atomize-from-latest ~/.claude/skills/
